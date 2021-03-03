@@ -89,6 +89,16 @@ h2 {
     font-weight: 400;
 }
 
+@media all and (min-width: 769px) and (max-width: 992px) {
+    .jumbotron-text-box h1 {
+        font-size: 35px;
+    }
+
+    /* .jumbotron-text-box p {
+        font-size: 14px;
+    } */
+}
+
 .jumbotron-form-box {
     background-color: white;
     padding: 30px 20px;
@@ -132,4 +142,9 @@ h2 {
 #terms-of-service a {
     color: #0c71ff;
     text-decoration: underline;
+}
+
+/*Customers*/
+.customers li {
+    display: inline-block;
 }
