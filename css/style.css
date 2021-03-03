@@ -1,17 +1,62 @@
 /*COMMON*/
+body {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    min-width: 320px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-/*HEADER*/
-/*nav top*/
-.nav-logo {
-    min-width: 160px;
-    max-width: 200px;
+.page-button {
+    color: #2b89fd;
+    border: 1px solid #2b89fd;
+    border-radius: 5px;
 }
 
-.nav-top-left-menu li {
+/*HEADER*/
+/*nav top*/
+.nav-top {
+    padding: 20px 0;
+}
+
+.nav-logo {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.nav-top ul {
+    line-height: 37px;
+}
+
+.nav-top li {
     display: inline-block;
+    margin-right: 12px;
+}
+
+.nav-top li:last-child {
+    margin-right: 0;
+}
+
+.nav-top a {
+    color: #263b66;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.nav-top-chevron-down {
+    margin-left: 3px;
+}
+
+.nav-top a.page-button {
+    font-size: 13px;
+    color: #2b89fd;
+    padding: 7px 10px;
+}
+
+.burger-toggle {
+    color: #2b89fd;
+    font-size: 25px;
 }
