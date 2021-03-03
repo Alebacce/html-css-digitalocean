@@ -10,6 +10,10 @@ ul {
     padding: 0;
 }
 
+.thick-p {
+    font-weight: 400;
+}
+
 .page-button {
     color: #2b89fd;
     border: 1px solid #2b89fd;
@@ -59,4 +63,51 @@ ul {
 .burger-toggle {
     color: #2b89fd;
     font-size: 25px;
+}
+
+/*MAIN*/
+/*Jumbotron*/
+.jumbotron {
+    background-image: url("../img/ms-jumbo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumbotron-text-box h1 {
+    color: white;
+    font-weight: 600;
+}
+
+.jumbotron-text-box p {
+    color: #bbcdff;
+    font-weight: 400;
+}
+
+.jumbotron-form-box {
+    background-color: white;
+    padding: 30px 20px;
+}
+
+.jumbotron-form-box .btn {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#create-account-btn {
+    color: white;
+    background-color: #579aff;
+}
+
+#google-sign-up-btn {
+    color: #757575;
+    background-color: white;
+    box-shadow: 2px 1px 3px rgb(211, 211, 211);
+    position: relative;
+}
+
+#google-icon {
+    width: 5%;
+    height: auto;
+    position: absolute;
+    left: 10px;
 }
