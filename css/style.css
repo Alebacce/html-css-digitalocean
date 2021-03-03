@@ -10,6 +10,12 @@ ul {
     padding: 0;
 }
 
+h2 {
+    color: #051e4f;
+    font-size: 26px;
+    font-weight: 700;
+}
+
 .thick-p {
     font-weight: 400;
 }
@@ -86,16 +92,26 @@ ul {
 .jumbotron-form-box {
     background-color: white;
     padding: 30px 20px;
+    border-radius: 5px;
 }
 
-.jumbotron-form-box .btn {
+#form-box-call-to-action {
+    font-size: 26px;
+    font-weight: 700;
+    color: #056dff;
+    margin-bottom: 15px;
+}
+
+.jumbotron-form-btn {
     font-size: 14px;
     font-weight: 700;
+    width: 100%;
 }
 
 #create-account-btn {
     color: white;
     background-color: #579aff;
+    margin-bottom: 7px;
 }
 
 #google-sign-up-btn {
@@ -103,6 +119,7 @@ ul {
     background-color: white;
     box-shadow: 2px 1px 3px rgb(211, 211, 211);
     position: relative;
+    margin-bottom: 15px;
 }
 
 #google-icon {
@@ -110,4 +127,9 @@ ul {
     height: auto;
     position: absolute;
     left: 10px;
+}
+
+#terms-of-service a {
+    color: #0c71ff;
+    text-decoration: underline;
 }
