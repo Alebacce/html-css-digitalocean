@@ -1,0 +1,17 @@
+/*COMMON*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER*/
+/*nav top*/
+.nav-logo {
+    min-width: 160px;
+    max-width: 200px;
+}
+
+.nav-top-left-menu li {
+    display: inline-block;
+}
