@@ -21,6 +21,11 @@ p {
     font-weight: 600;
 }
 
+a {
+    color: #1b7afe;
+    font-weight: 600;
+}
+
 .small-wrapper {
     width: 85%;
     max-width: 1000px;
@@ -196,7 +201,6 @@ p {
 }
 
 #terms-of-service a {
-    color: #0c71ff;
     text-decoration: underline;
 }
 
@@ -215,9 +219,7 @@ p {
 }
 
 .customers a {
-    color: #0c71ff;
     font-size: 13px;
-    font-weight: 600;
 }
 
 @media all and (max-width: 767px) {
@@ -343,7 +345,7 @@ in caso di cambiamenti grafici del sito*/
 }
 
 .image-slider-sub-text {
-    font-weight: 600;
+    font-weight: 700;
     color: #051e4f;
     padding: 20px 0;
 }
@@ -371,12 +373,11 @@ in caso di cambiamenti grafici del sito*/
     }
 }
 
-.small-info-box a {
-    color: #0c71ff;
-    font-weight: 600;
+/*Cities service speed section*/
+#cities-service-speed-box>.row>[class*="col-"] {
+    padding-bottom: 40px;
 }
 
-/*Cities service speed section*/
 .cities-service-speed-col_content {
     text-align: left;
     padding: 8px 0;
@@ -391,6 +392,47 @@ in caso di cambiamenti grafici del sito*/
 }
 
 .cities-service-speed-col_content a {
-    text-align: right;
     color: #00b2c8;
+}
+
+@media all and (max-width: 375px) {
+    .span-a-margin {
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 350px) {
+    .span-a-margin {
+        display: none;
+    }
+}
+
+/*Companies section*/
+.company-box {
+    background-color: white;
+    padding: 50px 0;
+    margin-bottom: 30px;
+}
+
+.company-box img {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.company-box a {
+    display: block;
+    padding: 25px 0;
+    font-weight: 600;
+}
+
+.company-quote p {
+    font-size: 18px;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.company-box .image-slider-sub-text {
+    padding: 0;
 }
