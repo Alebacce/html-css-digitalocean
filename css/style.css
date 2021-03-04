@@ -27,6 +27,15 @@ p {
     margin: 0 auto;
 }
 
+.section-padding {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.section-bg-gray {
+    background-color: #f3f5f9;
+}
+
 .section-intro {
     text-align: center;
 }
@@ -235,7 +244,7 @@ p {
 /*Configuration process*/
 #config-process .small-wrapper {
     width: 100%;
-    padding: 40px 0;
+    padding-top: 40px;
 }
 
 @media all and (max-width: 767px) {
@@ -270,4 +279,71 @@ in caso di cambiamenti grafici del sito*/
     #config-process .small-info-box {
         margin-bottom: 0;
     }
+}
+
+/*Image slider section*/
+/*For developers section*/
+.image-slider-section {
+    text-align: center;
+}
+
+.image-slider {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 45px;
+    position: relative;
+}
+
+@media all and (max-width: 767px) {
+    .image-slider {
+        padding-top: 90px;
+    }
+}
+
+.image-slider img {
+    width: 100%;
+    height: auto;
+}
+
+.chevron-absolute {
+    position: absolute;
+    font-size: 35px;
+}
+
+.chevron-left-absolute {
+    top: 50%;
+    right: 100%;
+    margin-right: 20px;
+    color: #6f7b97;
+}
+
+.chevron-right-absolute {
+    top: 50%;
+    left: 100%;
+    margin-left: 20px;
+    color: #031c4e;
+}
+
+@media all and (max-width: 767px) {
+    .chevron-absolute {
+        display: none;
+    }
+}
+
+.image-slider-sub-text {
+    font-weight: 600;
+    color: #051e4f;
+    padding: 20px 0;
+}
+
+.small-circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #006aff;
+    border-radius: 50%;
+}
+
+.small-circle-coloured {
+    background-color: #006aff;
 }
