@@ -77,6 +77,7 @@ h2 {
     background-image: url("../img/ms-jumbo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 0;
 }
 
 .jumbotron-text-box h1 {
@@ -145,6 +146,24 @@ h2 {
 }
 
 /*Customers*/
-.customers li {
+.customers {
+    background-color: #f3f5f9;
+    padding: 30px 0;
+}
+
+.customers-list-box li {
     display: inline-block;
+    width: calc((100% / 6) - 7px)
+}
+
+@media all and (max-width: 768px) {
+    .customers-list-box li {
+        padding: 20px;
+        width: calc((100% / 2) - 7px)
+    }
+}
+
+.customers-list-box img {
+    width: 100%;
+    height: auto;
 }
