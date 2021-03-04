@@ -62,7 +62,10 @@ a {
 }
 
 .page-button {
+    background-color: white;
     color: #2b89fd;
+    font-weight: 600;
+    font-size: 16px;
     border: 1px solid #2b89fd;
     border-radius: 5px;
 }
@@ -435,4 +438,9 @@ in caso di cambiamenti grafici del sito*/
 
 .company-box .image-slider-sub-text {
     padding: 0;
+}
+
+/*Call to action section-*/
+.call-to-action .page-button {
+    margin-top: 25px;
 }
