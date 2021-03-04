@@ -16,6 +16,11 @@ h2 {
     font-weight: 700;
 }
 
+p {
+    color: #606d8b;
+    font-weight: 600;
+}
+
 .small-wrapper {
     width: 85%;
     max-width: 1000px;
@@ -28,14 +33,26 @@ h2 {
 
 .section-intro p {
     font-size: 16px;
-    font-weight: 600;
-    color: #606d8b;
 }
 
 .page-button {
     color: #2b89fd;
     border: 1px solid #2b89fd;
     border-radius: 5px;
+}
+
+.small-info-box {
+    margin-bottom: 30px;
+}
+
+.small-info-box h3 {
+    color: #051e4f;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.small-info-box p {
+    font-size: 14px;
 }
 
 /*HEADER*/
@@ -243,4 +260,14 @@ in caso di cambiamenti grafici del sito*/
 .border-ul a {
     color: #8d96ad;
     font-size: 16px;
+}
+
+@media all and (max-width: 767px) {
+    #config-process .border-ul {
+        margin-bottom: 30px;
+    }
+
+    #config-process .small-info-box {
+        margin-bottom: 0;
+    }
 }
