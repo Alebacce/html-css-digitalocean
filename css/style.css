@@ -16,8 +16,20 @@ h2 {
     font-weight: 700;
 }
 
-.thick-p {
-    font-weight: 400;
+.small-wrapper {
+    width: 85%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-intro {
+    text-align: center;
+}
+
+.section-intro p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #606d8b;
 }
 
 .page-button {
@@ -87,7 +99,7 @@ h2 {
 
 .jumbotron-text-box p {
     color: #bbcdff;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
@@ -201,4 +213,34 @@ h2 {
 .customers-list-box img {
     width: 100%;
     height: auto;
+}
+
+/*Configuration process*/
+#config-process .small-wrapper {
+    width: 100%;
+    padding: 40px 0;
+}
+
+@media all and (max-width: 767px) {
+    #config-process .small-wrapper {
+        width: 100%;
+    }
+}
+
+/*ho dato alla ul un nome così generico perché mi smebrava un elemento del layout
+che magari potrebbe venir ripetuto o ripreso. Così è facilmente applicabile anche altorve
+in caso di cambiamenti grafici del sito*/
+.border-ul {
+    border-left: 3px solid #cecece;
+    padding-top: 10px;
+}
+
+.border-ul li {
+    padding-left: 8px;
+    padding-bottom: 10px;
+}
+
+.border-ul a {
+    color: #8d96ad;
+    font-size: 16px;
 }
