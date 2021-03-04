@@ -347,3 +347,13 @@ in caso di cambiamenti grafici del sito*/
 .small-circle-coloured {
     background-color: #006aff;
 }
+
+/*Business feature section*/
+.small-info-box span {
+    margin-left: 8px;
+}
+
+.small-info-box a {
+    color: #0c71ff;
+    font-weight: 600;
+}
