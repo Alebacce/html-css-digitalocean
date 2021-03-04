@@ -349,6 +349,16 @@ in caso di cambiamenti grafici del sito*/
 }
 
 /*Business feature section*/
+.info-box-container {
+    padding-top: 40px;
+}
+
+@media all and (max-width: 767px) {
+    .info-box-container {
+        padding-top: 0;
+    }
+}
+
 .small-info-box span {
     margin-left: 8px;
 }
