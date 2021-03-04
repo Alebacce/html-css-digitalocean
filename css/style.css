@@ -133,6 +133,8 @@ a {
     font-size: 25px;
 }
 
+/*END HEADER*/
+
 /*MAIN*/
 /*Jumbotron*/
 .jumbotron {
@@ -444,3 +446,42 @@ in caso di cambiamenti grafici del sito*/
 .call-to-action .page-button {
     margin-top: 25px;
 }
+
+/*END MAIN*/
+
+/*FOOTER*/
+.footer {
+    background-color: #031c4e;
+    color: #9ca5b6;
+}
+
+.footer a {
+    color: #9ca5b6;
+}
+
+.footer-left img {
+    padding-bottom: 10px;
+}
+
+#copyright {
+    color: #848da3;
+    font-weight: 600;
+}
+
+#made-in {
+    color: #576585;
+    font-weight: 600;
+    padding-bottom: 9px;
+}
+
+.footer-left ul li {
+    display: inline-block;
+    font-size: 22px;
+    margin: 5px;
+}
+
+.footer-left a {
+    color: #848da3;
+}
+
+/*END FOOTER*/
