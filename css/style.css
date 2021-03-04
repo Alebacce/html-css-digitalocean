@@ -26,6 +26,10 @@ a {
     font-weight: 600;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .small-wrapper {
     width: 85%;
     max-width: 1000px;
@@ -68,6 +72,11 @@ a {
     font-size: 16px;
     border: 1px solid #2b89fd;
     border-radius: 5px;
+}
+
+.page-button:hover {
+    background-color: #006aff;
+    color: white;
 }
 
 .small-info-box {
@@ -118,6 +127,10 @@ a {
     font-weight: 600;
 }
 
+.nav-top a:hover {
+    color: #537ed4;
+}
+
 .nav-top-chevron-down {
     margin-left: 3px;
 }
@@ -126,6 +139,10 @@ a {
     font-size: 13px;
     color: #2b89fd;
     padding: 7px 10px;
+}
+
+.nav-top a.page-button:hover {
+    color: white;
 }
 
 .burger-toggle {
@@ -185,12 +202,21 @@ a {
     margin-bottom: 7px;
 }
 
+#create-account-btn:hover {
+    background-color: #287eff;
+}
+
 #google-sign-up-btn {
     color: #757575;
     background-color: white;
     box-shadow: 2px 1px 3px rgb(211, 211, 211);
     position: relative;
     margin-bottom: 15px;
+}
+
+#google-sign-up-btn:hover {
+    color: #464646;
+    background-color: #f8f8f8;
 }
 
 #google-icon {
@@ -290,6 +316,11 @@ in caso di cambiamenti grafici del sito*/
     font-size: 16px;
 }
 
+.border-ul a:hover {
+    color: #4d5261;
+    font-size: 16px;
+}
+
 @media all and (max-width: 767px) {
     #config-process .border-ul {
         margin-bottom: 30px;
@@ -300,7 +331,10 @@ in caso di cambiamenti grafici del sito*/
     }
 }
 
-/*Image slider section*/
+/*Image slider section
+si ripete anche dopo, non l'ho però messa in common
+perché mi sembrava troppo, l'ho solo evidenziata con
+un commento*/
 /*For developers section*/
 .image-slider-section {
     text-align: center;
@@ -336,11 +370,19 @@ in caso di cambiamenti grafici del sito*/
     color: #6f7b97;
 }
 
+.chevron-left-absolute:hover {
+    color: #a8bceb;
+}
+
 .chevron-right-absolute {
     top: 50%;
     left: 100%;
     margin-left: 20px;
     color: #031c4e;
+}
+
+.chevron-right-absolute:hover {
+    color: #0457ff;
 }
 
 @media all and (max-width: 767px) {
@@ -400,12 +442,19 @@ in caso di cambiamenti grafici del sito*/
     color: #00b2c8;
 }
 
+.cities-service-speed-col_content a:hover {
+    color: #05e2ff;
+}
+
 @media all and (max-width: 375px) {
     .span-a-margin {
         margin: 0;
     }
 }
 
+/*andava a capo il triangolino e rovinava il layout
+sotto questa grandezza, così l'ho eliminato
+per rendere tutto più ordinato*/
 @media all and (max-width: 350px) {
     .span-a-margin {
         display: none;
@@ -466,6 +515,10 @@ in caso di cambiamenti grafici del sito*/
     z-index: 1;
 }
 
+.fixed-icon:hover {
+    background-color: #97afdf;
+}
+
 .fixed-icon img {
     display: block;
     max-width: 100%;
@@ -478,7 +531,6 @@ in caso di cambiamenti grafici del sito*/
 
 .notification-circle {
     color: white;
-
     display: inline-block;
     text-align: center;
     /*La line-height è diversa perché altrimenti il bordo così
@@ -491,6 +543,10 @@ in caso di cambiamenti grafici del sito*/
     background-color: #ff0001;
     border: 4px solid white;
     border-radius: 50%;
+}
+
+.notification-circle:hover {
+    background-color: #ff7e06;
 }
 
 .fixed-icon .notification-circle {
@@ -514,6 +570,10 @@ in caso di cambiamenti grafici del sito*/
     right: 105px;
     bottom: 40px;
     z-index: 1;
+}
+
+.comic:hover {
+    color: #4b74c4;
 }
 
 .comic-triangle {
@@ -584,6 +644,11 @@ in caso di cambiamenti grafici del sito*/
 .footer-right li {
     display: block;
     margin-bottom: 10px;
+}
+
+.footer-left a:hover,
+.footer-right a:hover {
+    color: white;
 }
 
 @media all and (max-width: 991px) {
